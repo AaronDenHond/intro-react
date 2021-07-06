@@ -3,12 +3,12 @@ function TodoList() {
   return (
     <>
       <input type="checkbox" />
-      Wake Up
+      Open the door
       <br />
       <input type="checkbox" />
-      Wake Up <br />
+      Get on the floor <br />
       <input type="checkbox" />
-      Wake Up
+      Everybody walk the dinosaur
       <br />
     </>
   );
