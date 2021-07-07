@@ -2,8 +2,8 @@ import React from "react";
 
 function TodoForm() {
   return (
-    <form>
-      <input type="text" />
+    <form className="form">
+      <input type="text" placeholder="Write your todo here!" />
       <input type="submit" value="add Todo" />
     </form>
     //the form structure for our todolist.

@@ -22,10 +22,15 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="My Todo App" />
-      <TodoForm />
-      <hr />
+      <div className="header">
+        <Header class="headerTitle" title="My Todo App" />
+      </div>
+      <div>
+        <TodoForm />
+      </div>
+
       <TodoList />
+
       <Footer />
     </div>
 

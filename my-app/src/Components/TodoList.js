@@ -12,13 +12,15 @@ function TodoList() {
   //useState param accepts the state when we first load the app (in this case our initial array of todos)
   //Every time a state is updated (in our case it would be by using the setTodos function) React updates the connected UI elements 🥳
   return (
-    <ul>
-      {todos.map((todo, index) => (
-        <li key={index}>
-          <input type="checkbox" /> {todo}
-        </li>
-      ))}
-    </ul>
+    <div className="list">
+      <ul>
+        {todos.map((todo, index) => (
+          <li key={index}>
+            <input type="checkbox" /> {todo}
+          </li>
+        ))}
+      </ul>
+    </div>
     /* with the .map method, we loop over every element in an array and do something with it. Here, we say : for every element
     in the array, put it in the ul as a listitem, with a checkbox  */
     //if not a static list, need function to make uniqueID. Every todo item should be an object with a uniqueID!
